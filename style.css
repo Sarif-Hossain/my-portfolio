@@ -13,6 +13,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     margin: 10px;
@@ -36,4 +37,12 @@ section{
     background-image: url(images/sam3.jpeg);
     background-repeat: no-repeat;
     background-position:center
+}
+.services{
+    background-image: url(images/sam4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.services h2{
+    text-align: center;
 }
