@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: coral;
+}
+.font-color{
+    color: rgb(32, 178, 66);
+}
+.color-coral{
+    color: coral;
+}
+section{
+    display: flex;
+}
+.half-width{
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+}
+.link-button{
+    color:black;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(green, rgb(0, 255, 217));
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.half-width img{
+    width: 400px;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url(images/sam3.jpeg);
+    background-repeat: no-repeat;
+    background-position:center
+}
