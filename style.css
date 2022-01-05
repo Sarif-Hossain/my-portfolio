@@ -12,6 +12,7 @@ h1{
     color: coral;
 }
 .flexible-container{
+    text-align: justify;
     display: flex;
     margin-bottom: 100px;
 }
@@ -33,16 +34,45 @@ h1{
     width: 400px;
     border-radius: 10px;
 }
+.services h1{
+    text-align: center;
+}
 .top-banner{
     background-image: url(images/sam3.jpeg);
-    background-repeat: no-repeat;
     background-position:center
 }
 .visions{
+    padding: 10px;
+    text-align: justify;
     background-image: url(images/sam4.jpeg);
-    background-repeat: no-repeat;
     background-position: center;
 }
 .visions h2{
+    text-align: center;
+}
+.visions h3{
+    color: rgb(222, 59, 30);
+}
+.box-area{
+    text-align: justify;
+    box-shadow: 10px 10px 30px yellowgreen;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+#border-experience{
+    border-image: linear-gradient(purple,orange);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+.box-area h2{
+    text-align: center;
+}
+.box-area h4{
+    text-align: center;
+    color: rgb(227, 43, 10);
+}
+footer p{
     text-align: center;
 }
