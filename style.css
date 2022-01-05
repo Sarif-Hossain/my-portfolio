@@ -11,7 +11,7 @@ h1{
 .color-coral{
     color: coral;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -38,11 +38,11 @@ section{
     background-repeat: no-repeat;
     background-position:center
 }
-.services{
+.visions{
     background-image: url(images/sam4.jpeg);
     background-repeat: no-repeat;
     background-position: center;
 }
-.services h2{
+.visions h2{
     text-align: center;
 }
